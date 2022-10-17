@@ -85,27 +85,25 @@
 
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
-        <div class="label-block">
+        <label>
           Do you love cats?
-          <label>
-            <input 
-              type="radio" 
-              name="cats" 
-              value="yes"
-            >
+          <input 
+            type="radio" 
+            name="cats" 
+            value="yes"
+          >
             Yes
-          </label>
-          <label>
-            <input 
-              type="radio" 
-              name="cats"
-              value="no"
-            >
-            No
-          </label>
-        </div>
+        </label>
+        <label>
+          <input 
+            type="radio" 
+            name="cats"
+            value="no"
+          >
+          No
+        </label>
 
-        <label class="label-block">
+        <label class="label-block margin-top">
           What is your favorite color?
           <input type="color" name="color" >
         </label>
@@ -141,9 +139,9 @@
           <textarea 
             name="info" 
             minlength="10" 
-            maxlength="60" 
-            autocomplete="off">
-          </textarea>
+            maxlength="60"
+            autocomplete="off"
+         ></textarea>
         </label>
 
         <label class="label-block">
@@ -156,10 +154,7 @@
       </fieldset>
 
       <button type="submit">Submit</button>
-
     </form>
-
-
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
